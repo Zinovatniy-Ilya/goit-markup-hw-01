@@ -4,28 +4,31 @@
     <meta charset="UTF-8">
     <meta name  ="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-</head>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700;900&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
 <body>
     <!--шапка-->
     <header>
-        <nav>
-            <a href="">Web Studio</a>
+        <nav class="underline">
+            <a href=""> <span class="web-title"><span style="color:#2196F3;">Web    </span><span style="color:#000000;">Studio</span></span></a>
                 <ul>
-                    <li> <a href="">Студия</a></li>
-                    <li> <a href="">Портфолио</a></li>
-                    <li> <a href="">Контакты </a></li>
+                    <li> <a href=""><span class="header-text">Студия</span></a></li>
+                    <li> <a href="/portfoplio.html"><span class="header-text">Портфолио</span></a></li>
+                    <li> <a href=""><span class="header-text">Контакты</span></a></li>
                 </ul>
         </nav>
-        <ul>
-            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111">+380961111111</a></li>
+        <ul class="underline">
+            <li><a href="mailto:info@devstudio.com"><span class="contact">info@devstudio.com</span></a></li>
+            <li><a href="tel:+380961111111"> <span class="contact">+38 096 111 11 11</span></a></li>
         </ul>
     </header>
 <main>
-    <section>
-    <h1> Эффективные решения для вашего бизнеса </h1>
-    <a href=""> Заказать услугу </a>
+    <!--Заказать услугу-->
+    <section class="underline">
+    <h1 class="efect-title"> Эффективные решения для вашего бизнеса </h1>
+    <a href="" class="main-button">Заказать услугу</a>
     </section>
+    <!--иконки-->
     <section>
     <ul>
         <li>
@@ -49,16 +52,16 @@
     </section>
     <!--Занятия-->
     <section>
-        <h2>чем мы занимаемся</h2>
+        <h2 class="section-title">чем мы занимаемся</h2>
         <ul>
             <li> <img src="./picture/png/nout.png" alt="">Десктопные приложения</li>
             <li> <img src="./picture/png/telephon.png" alt="">Мобильные приложения</li>
-            <li> <img src="./picture/gadget/Television.jpg" alt="">Дизайнерские решения</li>
+            <li> <img src="./picture/png/television.png" alt="">Дизайнерские решения</li>
         </ul>
     </section>
     <!--Команда-->
     <section>
-        <h2>Наша команда</h2>
+        <h2 class="section-title">Наша команда</h2>
         <ul>
             <li> <img src="./picture/people/1.jpg" alt="Николай Кучеренко">
                 <h3>Николай Кучеренко</h3>
@@ -67,27 +70,27 @@
                             <li><a href=""><img src="./picture/soc/Ellipse1.svg" alt="instagram"></a></li>
                             <li><a href=""><img src="./picture/soc/Ellipse2.svg" alt="twitter"></a></li>
                             <li><a href=""><img src="./picture/soc/Ellipse3.svg" alt="twitter"></a></li>
-                            <li><a href=""><img src="./picture/soc/Ellipse4.svg" alt="twitter"></a></li>
+                            <li><a href=""><img src="./picture/soc/Ellipse4.svg" alt="in"></a></li>
                         </ul>
             </li>
             <li> <img src="./picture/people/2.jpg" alt="Ольга Ивановна">
                 <h3>Ольга Иванова</h3>
                     <p>Frontend Developer</p>
                         <ul>
-                            <li><a href=""><img src="./picture/soc/Ellipse4.svg" alt=""></a></li>
                             <li><a href=""><img src="./picture/soc/Ellipse1.svg" alt="instagram"></a></li>
                             <li><a href=""><img src="./picture/soc/Ellipse2.svg" alt="twitter"></a></li>
                             <li><a href=""><img src="./picture/soc/Ellipse3.svg" alt="facebook"></a></li>
+                            <li><a href=""><img src="./picture/soc/Ellipse4.svg" alt="in"></a></li>
                         </ul>
             </li>
             <li> <img src="./picture/people/3.jpg" alt="Андрей Шевченко">
                 <h3>Андрей Шевченко</h3>
-                    <p>Андрей Шевченко</p>
+                    <p>Marketing</p>
                         <ul>
                             <li><a href=""><img src="./picture/soc/Ellipse1.svg" alt="twitter"></a></li>
                             <li><a href=""><img src="./picture/soc/Ellipse2.svg" alt="instagram"></a></li>
                             <li><a href=""><img src="./picture/soc/Ellipse3.svg" alt="facebook"></a></li>
-                            <li><a href=""><img src="./picture/soc/Ellipse4.svg" alt=""></a></li>
+                            <li><a href=""><img src="./picture/soc/Ellipse4.svg" alt="in"></a></li>
                         </ul>
             </li>
             <li> <img src="./picture/people/4.jpg" alt="Иван Николаев">
@@ -97,14 +100,14 @@
                             <li><a href=""><img src="./picture/soc/Ellipse1.svg" alt="instagram"></a></li>
                             <li><a href=""><img src="./picture/soc/Ellipse2.svg" alt="twitter"></a></li>
                             <li><a href=""><img src="./picture/soc/Ellipse3.svg" alt="facebook   "></a></li>
-                            <li><a href=""><img src="./picture/soc/Ellipse4.svg" alt=""></a></li>
+                            <li><a href=""><img src="./picture/soc/Ellipse4.svg" alt="in"></a></li>
                         </ul>
             </li>
         </ul>
     </section>
     <!--клиенты-->
         <section>
-            <h2>Постоянные клиенты</h2>
+            <h2 class="section-title">Постоянные клиенты</h2>
             <ul>
                 <li><img src="./picture/customer/Client1.svg" alt=""></li>
                 <li><img src="./picture/customer/Client2.svg" alt=""></li>
@@ -115,14 +118,14 @@
             </ul>
         </section>
 </main>
-    <footer>
+    <footer class="bg-footer">
         <div>
-            <a href="">Web studio</a>
+            <a href=""> <span class="web-title"><span style="color:#2196F3;">Web    </span><span style="color:#FFFFFF;">Studio</span></span></a>
                 <address>
-                    <ul>
+                    <ul class="underline">
                         <li>г. Киев, пр-т Леси Украинки, 26</li>
-                        <li><a href="mailto:info@devstudio.com">info@example.com</a></li>
-                        <li><a href="tel:+380961111111">+38 099 111 11 11</a></li>
+                        <li><a href="mailto:info@devstudio.com"><span class="contact">info@example.com</span></a></li>
+                        <li><a href="tel:+380961111111"><span class="contact">+38 099 111 11 11</span></a></li>
                     </ul>
                 </address>
         </div>
@@ -134,6 +137,10 @@
                     <li><img src="./picture/soc/Ellipse3.svg" alt="facebook"></li>
                     <li><img src="./picture/soc/Ellipse4.svg" alt=""></li>
                 </ul>
+        </div>
+        <div>
+            <h3>присойденяйтесь на рассылку</h3>
+            <a href=""  class="main-button">подписаться</a>
         </div>
     </footer>
 </body>
